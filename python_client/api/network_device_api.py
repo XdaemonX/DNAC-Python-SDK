@@ -121,7 +121,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}', 'DELETE',
+            '/api/v1/network-device/{id}', 'DELETE',
             path_params,
             query_params,
             header_params,
@@ -644,7 +644,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/brief', 'GET',
+            '/api/v1/network-device/{id}/brief', 'GET',
             path_params,
             query_params,
             header_params,
@@ -743,7 +743,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}', 'GET',
+            '/api/v1/network-device/{id}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -842,7 +842,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/collection-schedule', 'GET',
+            '/api/v1/network-device/{id}/collection-schedule', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1123,7 +1123,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${networkDeviceId}/config', 'GET',
+            '/api/v1/network-device/{networkDeviceId}/config', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1504,7 +1504,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/functional-capability/${id}', 'GET',
+            '/api/v1/network-device/functional-capability/{id}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -1798,7 +1798,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/meraki-organization', 'GET',
+            '/api/v1/network-device/{id}/meraki-organization', 'GET',
             path_params,
             query_params,
             header_params,
@@ -2024,7 +2024,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/module/${id}', 'GET',
+            '/api/v1/network-device/module/{id}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -2341,7 +2341,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${startIndex}/${recordsToReturn}', 'GET',
+            '/api/v1/network-device/{startIndex}/${recordsToReturn}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -2440,7 +2440,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/serial-number/${serialNumber}', 'GET',
+            '/api/v1/network-device/serial-number/{serialNumber}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -2642,7 +2642,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/vlan', 'GET',
+            '/api/v1/network-device/{id}/vlan', 'GET',
             path_params,
             query_params,
             header_params,
@@ -2741,7 +2741,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/wireless-info', 'GET',
+            '/api/v1/network-device/{id}/wireless-info', 'GET',
             path_params,
             query_params,
             header_params,
